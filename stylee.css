@@ -39,13 +39,17 @@ p{
   background-color: rgb(236,236,236);
   color: rgb(75, 79, 86);
   padding: 20px;
+  margin:20px auto;
 }
 
 .section-two{
   background-color: rgb(236,236,236);
   padding: 20px;
+  margin:20px auto;
 }
-
+.sub-section-yammer h2{
+  font-size:16px;
+}
 .section-two p{
   font-style: italic;
 }
@@ -82,7 +86,9 @@ p{
   
 }
 
-
+footer a{
+  margin:20px;
+}
 
 .section-paragraph{
   padding: 20px;
@@ -91,8 +97,26 @@ p{
   text-align: center;
   text-size-adjust: 30px;
 }
-
-
+.sponsors{
+  text-align: center;
+  margin:20px auto;
+}
+.sponsors h3{
+  margin-left:0;
+}
+body{
+  overflow-x:hidden;
+}
+.sponsor-box{
+  height:25px;
+  width:auto;
+  display:inline-block;
+  margin:10px 10px 10px 10px;
+}
+.sponsor-box img{
+  height:100%;
+  width:auto;
+}
 
 .circle{
   border-radius: 50%;
@@ -139,12 +163,20 @@ p{
 
 .photo-container{
   padding: 20px
+  border:1px solid #fff;
+  padding:10px 5px;
+  margin-bottom:20px;
+}
+.photo-container h3{
+  font-size:18px;
+  display: inline-block;
+  margin-right:20px;
 }
 
 .round-photo{
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  border-radius: 5%;
+  height: 100px;
+  width: 100px;
 }
 
 a{
@@ -213,3 +245,19 @@ a{
     background:purple;
     color: white;
   }
+
+.center-block{
+  margin:auto;
+}
+
+.para{
+  width:72%;
+  margin:auto;
+}
+h3{
+  margin-left:15%;
+}
+.my-auto{
+  margin-bottom:auto;
+  margin-top:auto;
+}
